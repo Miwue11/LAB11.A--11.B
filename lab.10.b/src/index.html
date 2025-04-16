@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reseteo-estilos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Laboratorio de extraccion de imagenes</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="contenedor-principal">
+        <h1>Introduzca el HTML</h1>
+        <div class="buscador">
+          <textarea
+            name="description"
+            placeholder="Checkear HTML"
+            id="buscador"
+            rows="10"
+            cols="60"
+            required
+          ></textarea>
+          <button id="extraer-btn">Extraer enlaces a imágenes</button>
+        </div>
+        <div id="HTML" class="datos-HTML"></div>
+
+        <script type="module" src="main.ts"></script>
+      </div>
+    </div>
+  </body>
+</html>

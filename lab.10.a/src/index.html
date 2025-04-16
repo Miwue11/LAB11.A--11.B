@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reseteo-estilos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Laboratorio validación de IBAN</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="contenedor-principal">
+        <div class="buscador">
+          <h1>Introduzca el IBAN</h1>
+          <input type="text" id="buscador" placeholder="Checkear IBAN..." />
+          <button>
+            <img
+              src="https://svgsilh.com/svg/1093183.svg"
+              alt="lupa"
+              id="lupa"
+            />
+          </button>
+        </div>
+        <div id="IBAN" class="datos-IBAN"></div>
+
+        <script type="module" src="main.ts"></script>
+      </div>
+    </div>
+  </body>
+</html>
